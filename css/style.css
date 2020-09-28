@@ -496,7 +496,7 @@ ul{
 }
 .phone:hover{
   color: #3a1c71;
-  font-size: 20px;
+  font-size: 30px;
 }
 @media (max-width: 425px){
   .contacts{
