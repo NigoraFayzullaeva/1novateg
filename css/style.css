@@ -333,7 +333,7 @@ h2{
   font-family: 'Poppins', Sans-Serif;
   height: 32px;
   line-height: 28px;
-  font-size: 18px;
+  font-size: 26px;
   color: var(--darkgreen);
 }
 
@@ -475,4 +475,34 @@ ul{
 }
 .contact-us{
   font-size: 22px;
+}
+.contacts{
+  display: flex;
+}
+.numbers{
+  margin-left: 80px;
+  padding-top: 20px;
+}
+.padding-b{
+  padding-bottom: 15px;
+}
+.phone{
+  font-family: 'Poppins', Sans-Serif;
+  /* height: 32px; */
+  line-height: 28px;
+  font-size: 26px;
+  color: var(--darkgreen);
+  transition: all 0.5s;
+}
+.phone:hover{
+  color: #3a1c71;
+  font-size: 20px;
+}
+@media (max-width: 425px){
+  .contacts{
+    display: block;
+  }
+  .numbers{
+    margin-left: 0;
+  }
 }
